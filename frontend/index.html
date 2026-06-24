@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchy Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Hierarchy Analyzer</h1>
+
+        <p>Enter one edge per line</p>
+
+        <textarea id="input" placeholder="Example:
+A->B
+A->C
+B->D"></textarea>
+
+        <button onclick="analyze()">Analyze</button>
+
+        <div id="error"></div>
+
+        <pre id="result"></pre>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
