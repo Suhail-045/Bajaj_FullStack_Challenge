@@ -15,7 +15,7 @@ async function analyze() {
             "<h3>Loading...</h3>";
 
         const response = await fetch(
-            "http://localhost:5000/bfhl",
+            "https://bajaj-api-e46h.onrender.com/bfhl",
             {
                 method: "POST",
                 headers: {
